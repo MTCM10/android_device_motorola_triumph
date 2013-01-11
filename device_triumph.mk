@@ -102,7 +102,8 @@ PRODUCT_COPY_FILES += \
     device/motorola/triumph/prebuilt/init.qcom.sdio.sh:/system/etc/init.qcom.sdio.sh \
     device/motorola/triumph/prebuilt/init.qcom.wifi.sh:/system/etc/init.qcom.wifi.sh \
     device/motorola/triumph/prebuilt/init.apn.sh:/system/etc/init.apn.sh \
-    device/motorola/triumph/prebuilt/telephony.sql:/system/etc/telephony.sql 
+    device/motorola/triumph/prebuilt/telephony.sql:/system/etc/telephony.sql \
+    device/motorola/triumph/prebuilt/wpa_supplicant.conf:/system/etc/wifi/wpa_supplicant.conf
 
 # Wifi/Modules
 PRODUCT_COPY_FILES += \
