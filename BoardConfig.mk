@@ -126,6 +126,9 @@ WPA_BUILD_SUPPLICANT := true
 # Set insecure for root access
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0
 
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/motorola/triumph/bluetooth
+
 # Releasetools
 TARGET_PROVIDES_RELEASETOOLS := true
 TARGET_RELEASETOOL_IMG_FROM_TARGET_SCRIPT := ./device/motorola/triumph/releasetools/triumph_img_from_target_files
