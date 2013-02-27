@@ -173,9 +173,8 @@ PRODUCT_PACKAGES += \
     setup_fs
 
 # Camera
-PRODUCT_PACKAGES += \
-    camera.msm7x30  \
-    libcamera2
+#PRODUCT_PACKAGES += \
+#    camera.msm7x30 
 
 # HDMI
 PRODUCT_PACKAGES += \
